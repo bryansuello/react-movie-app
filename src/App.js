@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
+import Footer from './components/Footer';
+import { AppStyled } from './components/styled/ComponentStyled';
 
 // external api to get access tp data about movies
 // api key for omdb: 1723493
@@ -9,7 +11,7 @@ import MovieCard from './MovieCard';
 //
 //typo can caused u so much headache. always watch ur spelling
 
-const API_URL = 'https://www.omdbapi.com?apikey=1723493'; //this is how u add api keys. just add the api key after the ?apikey=
+const API_URL = 'https://www.omdbapi.com?apikey=1723493'; //add the api key after the ?apikey=
 
 //unused variable or whatever they re called here, cause error when not used
 // const movie1 = {
@@ -42,7 +44,7 @@ const App = () => {
 
   return (
     <>
-      <div className="app">
+      <AppStyled>
         <h1>BRYFLIX</h1>
 
         <div className="search">
@@ -69,7 +71,8 @@ const App = () => {
             <h2>No movies found</h2>
           </div>
         )}
-      </div>
+      </AppStyled>
+      <Footer />
     </>
   );
 };

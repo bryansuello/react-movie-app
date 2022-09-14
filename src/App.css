@@ -17,15 +17,6 @@ body {
   background-color: #212426;
 }
 
-.app {
-  padding: 4rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 h1 {
   font-size: 3rem;
   letter-spacing: 0.9px;
@@ -192,10 +183,6 @@ h1 {
 } */
 
 @media screen and (max-width: 600px) {
-  .app {
-    padding: 4rem 2rem;
-  }
-
   .search {
     padding: 1rem 1.75rem;
     width: 100%;
@@ -212,20 +199,11 @@ h1 {
 }
 
 @media screen and (max-width: 400px) {
-  .app {
-    padding: 4rem 1rem;
-  }
-
   h1 {
     font-size: 2rem;
   }
 
   .container {
     margin-top: 2rem;
-  }
-
-  .movie {
-    width: '100%';
-    margin: 1rem;
   }
 }
