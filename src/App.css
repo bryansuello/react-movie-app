@@ -31,7 +31,7 @@ h1 {
   width: fit-content;
 }
 
-.search {
+/* .search {
   width: 71%;
   margin: 4rem 0 2rem;
 
@@ -63,7 +63,7 @@ h1 {
   width: 35px;
   height: 35px;
   cursor: pointer;
-}
+} */
 
 /* .search button {
   padding: 20px 40px;
@@ -182,7 +182,7 @@ h1 {
   opacity: 1;
 } */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .search {
     padding: 1rem 1.75rem;
     width: 100%;
@@ -196,7 +196,7 @@ h1 {
     width: 20px;
     height: 20px;
   }
-}
+} */
 
 @media screen and (max-width: 400px) {
   h1 {
